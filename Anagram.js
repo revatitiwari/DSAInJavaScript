@@ -2,7 +2,6 @@
 // check if two strings are equal if reversed that
 // input - Ana == ana output - true
 
-
 const Anagram = (str, t) => {
      s = str.split('').sort().Join("")
      t = t.split('').sort().join('')
